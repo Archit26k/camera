@@ -3,10 +3,10 @@ var button
 var snapshots =[];
 
 function setup() {
-  createCanvas(windowWidth, windowHeight/2);
+  createCanvas(320, 240);
   background(51)
  video = createCapture(VIDEO );
- video.size(windowWidth, windowHeight/2)
+ video.size(320, 240)
  button =  createButton('snap');
  button .mousePressed(takesnap)
 }
